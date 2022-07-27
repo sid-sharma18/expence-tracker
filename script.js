@@ -16,6 +16,7 @@ addbtn.addEventListener('click',(e)=>{
    {
        alert('pleasse enter the valid values')
    }
+   else{
     if(expences==null)
     {
         expencesobj= []
@@ -35,6 +36,7 @@ addbtn.addEventListener('click',(e)=>{
     console.log(expencesobj)
     updateExpence();
    showexpence()
+}
 })
 
 function showexpence(){
